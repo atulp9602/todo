@@ -15,6 +15,7 @@ function display(){
 function addTodo(){
     let todo;
     todo = document.getElementById("todo").value;
+    todo = todo.trim();
 
     if(!todo){
         document.getElementById("msg").innerHTML = "Please, Add Something!!";
