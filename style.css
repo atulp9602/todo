@@ -131,9 +131,9 @@ body{
         font-size: 4vw;
     }
     .container .todo_div #msg{
-        margin-top: 5px;
-        margin-left: 18%;
-        font-size: 1.9vw;
+       margin-top: 5px;
+        margin-left: 15%;
+        font-size: 2.7vw;
         color: red;
     } 
     .container .todo_div #list{
@@ -144,9 +144,9 @@ body{
         margin-left: 4em;
     }
     .container .todo_div #list button{
-        font-size: 1.9vw;
-        height: 1.9em;
-        width: 1.9em;
+        font-size: 4vw;
+        height: 1.8em;
+        width: 1.8em;
     }
     
 }
