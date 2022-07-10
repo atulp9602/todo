@@ -41,10 +41,13 @@ function addTodo(){
 }
 
 function cut(index){
-  let arr =   JSON.parse(localStorage.getItem("todo"));
-  arr.splice(index,1);
-  localStorage.setItem("todo", JSON.stringify(arr));
-  location.reload();
+   
+  if(confirm("Are you sure to delete this todo?")){
+      let arr =   JSON.parse(localStorage.getItem("todo"));
+      arr.splice(index,1);
+      localStorage.setItem("todo", JSON.stringify(arr));
+      location.reload();
+  }
 }
 
 let eindex;
