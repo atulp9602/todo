@@ -79,6 +79,7 @@ body{
 
 .container .todo_div #list li{
     margin : 7px 0px;
+    overflow-wrap: break-word;
 }
 
 .container .todo_div #list button{
